@@ -2,7 +2,7 @@ FirmTruss Community Search in Multilayer Network: Implementations
 ================================================
 
 This folder contains all code and datasets that are used in "FirmTruss Community
-Search in Multilayer Network" study.
+Search in Multilayer Network".
 
  
 
@@ -10,9 +10,13 @@ Jupyter Notebook
 ----------------
 
 We provide a jupyter notebook ("Sample_of_Experiments.ipynb") for convenience,
-including many examples and samples of experiments.
+including many examples and samples of experiments. Please note that due to the storage limit on GitHub, indices for some datasets are not provided. If you receive an error about missing a file, please run the following code for the dataset (replace X with the name of the dataset):
 
- 
+ python main.py X FirmTruss —save
+ 
+ This command will save FirmTruss indices and will solve the issue.
+
+
 
 Folders
 -------
@@ -78,6 +82,11 @@ results -k K k -p P p -l L lambda -q Q query nodes
 
 \*\*Note\*\*
 
-If for dataset X, indices are not available, you can run the following command:
+1. If for dataset X, indices are not available, you can run the following command:
 
-1.  python main.py X FirmTruss —save
+python main.py X FirmTruss —save
+
+
+2. Due to the storage limit on Github, some large datasets are not avilable in Dataset folder. To download large datasets please use the following link:
+
+
