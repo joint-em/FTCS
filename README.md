@@ -1,7 +1,7 @@
 FirmTruss Community Search in Multilayer Network
 ================================================
 
-This repository contains the implementation of algorithms, used datasets, and the full version paper "FirmTruss Community Search in Multilayer Network". 
+This repository contains the implementation of algorithms, used datasets, and the full version of paper "FirmTruss Community Search in Multilayer Network". 
 
 
 
