@@ -1,4 +1,4 @@
-FirmTruss Community Search in Multilayer Network
+FirmTruss Community Search in Multilayer Network: Implementations
 ================================================
 
 This folder contains all code and datasets that are used in "FirmTruss Community
