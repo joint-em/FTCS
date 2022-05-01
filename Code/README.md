@@ -84,7 +84,7 @@ results -k K k -p P p -l L lambda -q Q query nodes
 
 1. If for dataset X, indices are not available, you can run the following command:
 
-python main.py X FirmTruss —save
+   python main.py X FirmTruss —save
 
 
 2. Due to the storage limit on Github, some large datasets are not avilable in Dataset folder. To download large datasets please use the following link:
