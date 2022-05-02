@@ -7,7 +7,7 @@ This repository contains the implementation of algorithms, used datasets, and th
 
 Code
 ----------------
-This folder includes the implementation of all algorithms, datasets, and a Jupyter notebook for convenience, including many examples and samples of experiments. For further explanation, please refer to the README file in this folder.  
+This folder includes the implementation of all algorithms, datasets, and a Jupyter notebook for convenience, including many examples and samples of experiments. For more details, please refer to the README file in this folder.  
 
 
 Paper (Full Version)
