@@ -94,6 +94,6 @@ optional arguments:
 
 2. Due to the storage limit on Github, some large datasets are not avilable in Dataset folder. To download large datasets please use the following link:
 
-   Google+: https://gonglab.pratt.duke.edu/google-dataset
+   All large datasets: https://drive.google.com/file/d/1SZoSwsOkIh7t8txQVKyATO-Pug87GdAw/view?usp=sharing
    
 
