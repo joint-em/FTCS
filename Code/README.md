@@ -64,10 +64,15 @@ iLocal, AFTCS-Approx}
 
 optional arguments: 
 -h, --help show this help message and exit 
+
 --save save results 
+
 -k K value of k 
+
 -p P value of p 
+
 -l L value of lambda 
+
 -q Q query nodes
 
 **Any value of p smaller than -100 (resp. more than +100), is considered as
