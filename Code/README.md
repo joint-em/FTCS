@@ -59,7 +59,11 @@ Run the following command from the folder "Code/"
 
 " python main.py [-h] [--save] [-k K] [-p P] [-l L] [-q Q] d m "
 
-positional arguments: d dataset m algorithms {FirmTruss, Global, iGlobal, Local,
+positional arguments: 
+
+d dataset 
+
+m algorithms {FirmTruss, Global, iGlobal, Local,
 iLocal, AFTCS-Approx}
 
 optional arguments: 
