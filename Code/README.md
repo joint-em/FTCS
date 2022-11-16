@@ -76,7 +76,7 @@ iLocal, AFTCS-Approx}
 
 optional arguments:   
 `-h, --help`: show this help message and exit   
-`--save`: save results
+`--save`: save results  
 `-k K`: value of k   
 `-p P`: value of p   
 `-l L`: value of lambda   
