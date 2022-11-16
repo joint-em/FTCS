@@ -6,8 +6,8 @@ Search in Multilayer Network`` (VLDB 2023).
 
  
 
-Jupyter Notebook
-----------------
+### Jupyter Notebook
+---------
 
 We provide a jupyter notebook (`Sample_of_Experiments.ipynb`) for convenience,
 including many examples and samples of experiments. Please note that due to the storage limit on GitHub, indices for some datasets are not provided. If you receive an error about missing a file, please run the following code for the dataset (replace X with the name of the dataset):
@@ -20,8 +20,8 @@ python main.py X FirmTruss —save
 
 
 
-Folders
--------
+### Folders
+---------
 
 `Datasets`: Include all used datasets
 
@@ -44,8 +44,8 @@ results.
 
  
 
-Code
-----
+### Code
+---------
 
 If you have Cython available, first run 
 
@@ -59,7 +59,7 @@ directly execute the Python code.
 
  
 
-Execution
+### Execution
 ---------
 
 Run the following command from the folder `Code/`
@@ -86,7 +86,8 @@ optional arguments:
 -infty (resp. + infty)**
 
 
-\#\#\# Examples
+### Examples
+---------
 
 1.  
 ```
