@@ -70,7 +70,6 @@ python main.py [-h] [--save] [-k K] [-p P] [-l L] [-q Q] d m
 
 positional arguments: 
 
-```
 d dataset 
 
 m algorithms {FirmTruss, Global, iGlobal, Local,
@@ -91,7 +90,7 @@ optional arguments:
 
 **Any value of p smaller than -100 (resp. more than +100), is considered as
 -infty (resp. + infty)**
-```
+
 
 \#\#\# Examples
 
