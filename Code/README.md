@@ -9,7 +9,7 @@ Search in Multilayer Network`` (VLDB 2023).
 ### Jupyter Notebook
 ---------
 
-We provide a jupyter notebook ([`Sample_of_Experiments.ipynb`](Code/Sample_of_Experiments.ipynb)) for convenience,
+We provide a jupyter notebook ([`Sample_of_Experiments.ipynb`](Sample_of_Experiments.ipynb)) for convenience,
 including many examples and samples of experiments. Please note that due to the storage limit on GitHub, indices for some datasets are not provided. If you receive an error about missing a file, please run the following code for the dataset (replace X with the name of the dataset):
 
 ```
