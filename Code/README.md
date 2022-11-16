@@ -23,24 +23,24 @@ python main.py X FirmTruss —save
 ### Folders
 ---------
 
-[`Datasets`](Code/Datasets): Include all used datasets
+[`Datasets`](Datasets): Include all used datasets
 
-[`FirmCore`](Code/FirmCore): Implementation of FirmCore structure (which is used in FirmTruss as
+[`FirmCore`](FirmCore): Implementation of FirmCore structure (which is used in FirmTruss as
 well)
 
-[`FirmTruss`](Code/FirmTruss): Implementation of FirrmTruss decomposition, Finding_G_0, Global,
+[`FirmTruss`](FirmTruss): Implementation of FirrmTruss decomposition, Finding_G_0, Global,
 iGlobal, Local, and iLocal algorithms
 
-[`Homophily`](Code/Homophily): Implementation of AFTCS-Approx, and Exact_MaxMin algorithms
+[`Homophily`](Homophily): Implementation of AFTCS-Approx, and Exact_MaxMin algorithms
 
-[`MLGraph`](Code/MLGraph): Implementation of multilayer graphs
+[`MLGraph`](MLGraph): Implementation of multilayer graphs
 
-[`Scripts`](Code/Scripts): Implementation of needed functions to reproduce the experiment's
+[`Scripts`](Scripts): Implementation of needed functions to reproduce the experiment's
 results.
 
-[`Setup`](Code/Setup): Needed files for compiling the code with Cython
+[`Setup`](Setup): Needed files for compiling the code with Cython
 
-[`output`](Code/output): Includes all indices for each dataset
+[`output`](output): Includes all indices for each dataset
 
  
 
@@ -122,6 +122,6 @@ python main.py RM AFTCS-Approx -k 23 -l 2 -q 4 -p 1
 
 2. Due to the storage limit on Github, some large datasets are not avilable in Dataset folder. To download large datasets please use the following link:
 
-   All large datasets: https://drive.google.com/file/d/1SZoSwsOkIh7t8txQVKyATO-Pug87GdAw/view?usp=sharing
+   All large datasets: [Here](https://drive.google.com/file/d/1SZoSwsOkIh7t8txQVKyATO-Pug87GdAw/view?usp=sharing)
    
 
