@@ -48,9 +48,11 @@ Code
 ----
 
 If you have Cython available, first run 
+
 ```
 python setup.py build_ext --inplace
 ```
+
 from the folder 'Code/'. This command builds the .c files created by Cython.
 Alternatively, without running the mentioned command, it is still possible to
 directly execute the Python code.
@@ -94,21 +96,25 @@ optional arguments:
 \#\#\# Examples
 
 1.  
+
 ```
 python main.py td iGlobal -k 12 -l 10 -q 77
 ```
 
 2.  
+
 ```
 python main.py dblp Local -k 4 -l 1 -q 63
 ```
 
 3.  
+
 ```
 python main.py terrorist AFTCS-Approx -k 5 -l 2 -q 4 -p -200
 ```
 
 4.  
+
 ```
 python main.py RM AFTCS-Approx -k 23 -l 2 -q 4 -p 1
 ```
@@ -118,6 +124,7 @@ python main.py RM AFTCS-Approx -k 23 -l 2 -q 4 -p 1
 \*\*Note\*\*
 
 1. If for dataset X, indices are not available, you can run the following command:
+
    ```
    python main.py X FirmTruss —save
    ```
