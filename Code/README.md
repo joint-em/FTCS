@@ -1,8 +1,8 @@
 FirmTruss Community Search in Multilayer Network: Implementations
 ================================================
 
-This folder contains all code and datasets that are used in "FirmTruss Community
-Search in Multilayer Network".
+This folder contains all code and datasets that are used in ``FirmTruss Community
+Search in Multilayer Network`` (VLDB 2023).
 
  
 
