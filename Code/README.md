@@ -9,7 +9,7 @@ Search in Multilayer Network`` (VLDB 2023).
 ### Jupyter Notebook
 ---------
 
-We provide a jupyter notebook (`Sample_of_Experiments.ipynb`) for convenience,
+We provide a jupyter notebook ([`Sample_of_Experiments.ipynb`](Code/Sample_of_Experiments.ipynb)) for convenience,
 including many examples and samples of experiments. Please note that due to the storage limit on GitHub, indices for some datasets are not provided. If you receive an error about missing a file, please run the following code for the dataset (replace X with the name of the dataset):
 
 ```
@@ -23,24 +23,24 @@ python main.py X FirmTruss —save
 ### Folders
 ---------
 
-`Datasets`: Include all used datasets
+[`Datasets`](Code/Datasets): Include all used datasets
 
-`FirmCore`: Implementation of FirmCore structure (which is used in FirmTruss as
+[`FirmCore`](Code/FirmCore): Implementation of FirmCore structure (which is used in FirmTruss as
 well)
 
-`FirmTruss`: Implementation of FirrmTruss decomposition, Finding_G_0, Global,
+[`FirmTruss`](Code/FirmTruss): Implementation of FirrmTruss decomposition, Finding_G_0, Global,
 iGlobal, Local, and iLocal algorithms
 
-`Homophily`: Implementation of AFTCS-Approx, and Exact_MaxMin algorithms
+[`Homophily`](Code/Homophily): Implementation of AFTCS-Approx, and Exact_MaxMin algorithms
 
-`MLGraph`: Implementation of multilayer graphs
+[`MLGraph`](Code/MLGraph): Implementation of multilayer graphs
 
-`Scripts`: Implementation of needed functions to reproduce the experiment's
+[`Scripts`](Code/Scripts): Implementation of needed functions to reproduce the experiment's
 results.
 
-`Setup`: Needed files for compiling the code with Cython
+[`Setup`](Code/Setup): Needed files for compiling the code with Cython
 
-`output`: Includes all indices for each dataset
+[`output`](Code/output): Includes all indices for each dataset
 
  
 
@@ -71,16 +71,16 @@ python main.py [-h] [--save] [-k K] [-p P] [-l L] [-q Q] d m
 positional arguments: 
 
 `d dataset`  
-`m algorithms {FirmTruss, Global, iGlobal, Local,
-iLocal, AFTCS-Approx}`  
+`m algorithms`: {FirmTruss, Global, iGlobal, Local,
+iLocal, AFTCS-Approx}
 
 optional arguments:   
-`-h, --help` show this help message and exit   
-`--save` save results
-`-k K` value of k   
-`-p P` value of p   
-`-l L` value of lambda   
-`-q Q` query nodes  
+`-h, --help`: show this help message and exit   
+`--save`: save results
+`-k K`: value of k   
+`-p P`: value of p   
+`-l L`: value of lambda   
+`-q Q`: query nodes  
 
 **Any value of p smaller than -100 (resp. more than +100), is considered as
 -infty (resp. + infty)**
