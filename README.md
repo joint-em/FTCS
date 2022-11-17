@@ -12,6 +12,14 @@ This repository contains the implementation of algorithms, used datasets, and th
 
 
 
+### New Multilayer Network Datasets
+----------------  
+1. Attributed Multilayer DBLP  
+2. Google+
+3. Multilayer Brain Networks
+4. Multilayer (Attributed) Noordin Terrorist Network
+
+
 
 ### Key Contributions
 ----------------  
